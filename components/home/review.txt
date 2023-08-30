@@ -1,0 +1,197 @@
+/**
+ * Title: Write a program using JavaScript on Review
+ * Author: Hasibul Islam
+ * Portfolio: https://devhasibulislam.vercel.app
+ * Linkedin: https://linkedin.com/in/devhasibulislam
+ * GitHub: https://github.com/in/devhasibulislam
+ * Facebook: https://facebook.com/in/devhasibulislam
+ * Instagram: https://instagram.com/in/devhasibulislam
+ * Twitter: https://twitter.com/in/devhasibulislam
+ * Pinterest: https://pinterest.com/in/devhasibulislam
+ * WhatsApp: https://wa.me/8801906315901
+ * Telegram: devhasibulislam
+ * Date: 29, July 2023
+ */
+
+import React, { useEffect } from "react";
+import Glide from "@glidejs/glide";
+import Container from "../shared/container";
+import Image from "next/image";
+
+const Review = () => {
+  useEffect(() => {
+    const glide = new Glide(".glide", {
+      type: "carousel",
+      perView: 2,
+      breakpoints: {
+        768: {
+          perView: 1,
+        },
+      },
+    });
+
+    glide.mount();
+  }, []);
+
+  const reviews = [
+    {
+      name: "Abrab Hossain",
+      picture: "/assets/home/review/man.svg",
+      opinion:
+        "Wanted to study engineering since childhood. I was looking for a senior brother or sister who would give me proper guidance, but could not find anyone. I finally found Plan Nao and registered to take the service. Expert brothers gave such nice guidelines that I got answers to all my questions. Alhamdulillah I am now studying according to the guidelines.",
+      qualification: "PhD, Sanford University",
+      ratings: 5,
+    },
+    {
+      name: "Abrab Hossain",
+      picture: "/assets/home/review/man.svg",
+      opinion:
+        "Wanted to study engineering since childhood. I was looking for a senior brother or sister who would give me proper guidance, but could not find anyone. I finally found Plan Nao and registered to take the service. Expert brothers gave such nice guidelines that I got answers to all my questions. Alhamdulillah I am now studying according to the guidelines.",
+      qualification: "M.Phil, Sandiago University",
+      ratings: 3,
+    },
+  ];
+
+  return (
+    <section className="bg-[#F0FCF7] py-12">
+      <Container>
+        <h1 className="md:text-4xl text-2xl text-center font-semibold">
+          Decision from <span className="text-primary">Experts</span>
+        </h1>
+        <div className="glide py-8">
+          <div className="glide__track" data-glide-el="track">
+            <ul className="glide__slides">
+              {reviews?.map((review, index) => (
+                <li key={index} className="glide__slide">
+                  {/* <div className="grid grid-cols-1 p-8 md:grid-cols-2 md:gap-2 gap-12 items-center">
+                    <div className="reviewBg w-3/4 lg:block md:block hidden rounded-2xl">
+                      <Image
+                        src={review.picture}
+                        alt={review.name}
+                        height={300}
+                        width={400}
+                        priority
+                      />
+                    </div>
+                    <div>
+                      <div className="flex -mb-6 ml-8">
+                        {" "}
+                        <Image
+                          src={"/assets/home/review/quotation.svg"}
+                          alt="quotation"
+                          height={50}
+                          width={50}
+                          className="mr-2"
+                        />
+                        <Image
+                          src={"/assets/home/review/quotation.svg"}
+                          alt="quotation"
+                          height={50}
+                          width={50}
+                        />
+                      </div>
+                      <div className="border rounded-xl p-8 lg:pt-16">
+                        <p
+                          title={review.opinion}
+                          className="text-slate-500 leading-7 mb-6 font-semibold lg:line-clamp-5 md:line-clamp-4 line-clamp-3"
+                        >
+                          {review.opinion}
+                        </p>
+                        <div className="flex justify-between items-center">
+                          <div>
+                            <div className="border-2 border-[#007f7b] h-20 w-20 object-cover rounded-full lg:hidden md:hidden block">
+                              <Image
+                                src={review.picture}
+                                alt="review"
+                                height={80}
+                                width={80}
+                                className="mx-auto max-w-full h-20 w-20 object-cover lg:hidden md:hidden block rounded-full"
+                              />
+                            </div>
+                          </div>
+                          <div className="flex flex-col gap-y-3 text-end">
+                            <div className="flex justify-end">
+                              {[...Array(review.ratings).keys()]?.map(
+                                (rating) => (
+                                  <Image
+                                    key={rating}
+                                    src={"/assets/home/review/star.svg"}
+                                    alt="rating"
+                                    height={20}
+                                    width={20}
+                                  />
+                                )
+                              )}
+                            </div>
+                            <p className="font-bold">{review.name}</p>
+                            <p className="text-[#8C8C8C] font-semibold">
+                              {review.qualification}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> */}
+
+                  <div class="w-full py-8 relative">
+                    <div class="bg-white rounded-lg p-6 flex flex-col gap-y-6 border">
+                      <p class="text-gray-700 text-sm">{review.opinion}</p>
+                      <div class="flex items-center">
+                        {[...Array(review.ratings).keys()]?.map((rating) => (
+                          <Image
+                            key={rating}
+                            src={"/assets/home/review/star.svg"}
+                            alt="rating"
+                            height={20}
+                            width={20}
+                          />
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="absolute bottom-0 right-4 bg-white  rounded-lg md:w-1/2 w-3/ p-4 border">
+                      <div class="flex items-center gap-x-4">
+                        <Image
+                          height={48}
+                          width={48}
+                          class="w-12 h-12 object-contain rounded-full shadow-2xl border border-secondary"
+                          src={review.picture}
+                          alt="User Avatar"
+                        />
+                        <div>
+                          <p class="text-gray-800 font-semibold">
+                            {review.name}
+                          </p>
+                          <p class="text-gray-600 text-xs">
+                            {review.qualification}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="absolute top-1 left-4 flex">
+                      <Image
+                        src={"/assets/home/review/quotation.svg"}
+                        alt="quotation"
+                        height={25}
+                        width={25}
+                      />
+                      <Image
+                        src={"/assets/home/review/quotation.svg"}
+                        alt="quotation"
+                        height={25}
+                        width={25}
+                      />
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default Review;

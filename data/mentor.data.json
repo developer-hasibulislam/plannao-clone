@@ -1,0 +1,509 @@
+[
+  {
+    "title": "Microsoft integrates Venmo into Xbox's payment system",
+    "category": "academic",
+    "about": "Venmo is now listed as an option on the Xbox Store to pay for games, apps, and other media. Venmo will become a payment option for the US Microsoft Store in the coming months. The function allows users to pay off their purchases over the course of several weeks or months, rather than all at once.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1692967837/plannao-clone/1692967834636_mentor_1280_720_01.png.png",
+    "description": {
+      "structures": [
+        "Microsoft integration of Venmo into Xbox's payment infrastructure",
+        "Venmo incorporation within Microsoft's Xbox payment ecosystem",
+        "Xbox's payment system updated with seamless Venmo integration by Microsoft",
+        "Enhanced payment options as Microsoft integrates Venmo with Xbox",
+        "Venmo now part of Xbox's payment network through Microsoft's integration",
+        "Streamlined payment experience on Xbox with Venmo-Microsoft integration"
+      ],
+      "purposes": [
+        "Microsoft enables Venmo integration to bolster Xbox's payment capabilities",
+        "Venmo integrated as a payment method in Xbox's Microsoft-powered system",
+        "Microsoft incorporates Venmo into Xbox's payment processing framework",
+        "Xbox's payment system enriched by Microsoft's Venmo integration",
+        "Expanding Xbox's payment options through Microsoft's Venmo integration",
+        "Venmo seamlessly integrated into Xbox's payment system by Microsoft",
+        "Microsoft introduces Venmo integration to Xbox's payment infrastructure"
+      ],
+      "lecturers": [
+        "Hasibul Islam",
+        "Sadia Khanum",
+        "Sanjida Akter",
+        "Rumi Al Mahamud"
+      ]
+    },
+    "price": 575.99,
+    "status": "active"
+  },
+  {
+    "title": "Factory Method Design Pattern in GoLang",
+    "category": "professional",
+    "about": "Factory Method Design Pattern in GoLang helps you attain flexibility and decoupling. Use the pattern to create different database connections without littering your application code. Consider an e-commerce application that supports various payment methods like Credit Cards, PayPal, and Cryptocurrency.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1692967815/plannao-clone/1692967813469_mentor_1280_720_06.png.png",
+    "description": {
+      "structures": [
+        "Factory Method Design Pattern implementation in GoLang",
+        "GoLang implementation of Factory Method Pattern",
+        "Utilizing Factory Method Design Pattern in GoLang",
+        "GoLang Factory Method Design Pattern example",
+        "Applying the Factory Method Pattern in GoLang",
+        "GoLang Design Patterns: Factory Method"
+      ],
+      "purposes": [
+        "Creating objects with Factory Method in GoLang",
+        "GoLang Factory Method Pattern explained",
+        "Designing extensible systems with Factory Method in GoLang",
+        "GoLang Factory Method: Creating objects the right way",
+        "Implementing Factory Method Pattern for object creation in GoLang",
+        "GoLang Design Patterns: Leveraging Factory Method",
+        "GoLang Factory Method Design Pattern demystified",
+        "Building flexible applications with Factory Method in GoLang",
+        "GoLang Factory Method: An elegant approach to object creation"
+      ],
+      "lecturers": ["Md. Rakib Mia", "Hasna Hena"]
+    },
+    "price": 500,
+    "status": "active"
+  },
+  {
+    "title": "Design Patterns in Node.js: A Fun TypeScript Adventure!",
+    "category": "jobrelated",
+    "about": "Design Patterns in Node.js: A Fun TypeScript Adventure! In this article, we’ll dive headfirst into the exciting world of design patterns with TypeScript examples. We'll cover the Singleton, Observer, Factory, and Command patterns with a healthy dose of TypeScript.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1692967783/plannao-clone/1692967778177_mentor_1280_720_11.png.png",
+    "description": {
+      "structures": [
+        "Node.js Design Patterns for Scalable Applications with TypeScript",
+        "Exploring Design Patterns in Node.js through a TypeScript Adventure",
+        "Mastering Design Patterns in Node.js: A TypeScript Odyssey",
+        "Implementing Advanced Design Patterns in Node.js using TypeScript",
+        "Unraveling the Magic of Node.js Design Patterns with TypeScript"
+      ],
+      "purposes": [
+        "Leveraging TypeScript for a Journey into Node.js Design Patterns",
+        "Deep Dive into Design Patterns in Node.js with TypeScript",
+        "Building Robust Applications with Node.js Design Patterns and TypeScript",
+        "Embracing Design Patterns in Node.js: A TypeScript Exploration",
+        "Architecting Node.js Applications with Fun TypeScript Design Patterns"
+      ],
+      "lecturers": ["Sabbir Hassan Mithu", "Nourin Akter", "Nipa Akter"]
+    },
+    "price": 550.5,
+    "status": "active"
+  },
+  {
+    "title": "Why to Modernize with Blazor? A Winning Strategy",
+    "category": "jobrelated",
+    "about": "Blazor is evolving to modernize existing applications, moving from MVC, Razor Pages or Web Forms. With.NET 8 just around the corner, there’s a lot of talk about Blazor becoming a ‘drop-in’ replacement for MVC or Razor Pages. Take a look at what Blazor brings to the table.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693056688/plannao-clone/mentor_1280_720_14_eieq3u.png",
+    "description": {
+      "structures": [
+        "Blazor emerges as a transformative force, breathing new life into legacy apps by replacing MVC, Razor Pages, or Web Forms.",
+        "With the imminent arrival of .NET 8, Blazor is positioned as a seamless substitute for MVC and Razor Pages, sparking discussions in the tech sphere.",
+        "Blazor's evolution signals a shift towards modernization, enticing developers to migrate from aging MVC, Razor Pages, or Web Forms setups.",
+        "As .NET 8 approaches, the buzz around Blazor intensifies, touting its potential as a hassle-free replacement for MVC and Razor Pages.",
+        "Blazor's game-changing potential is evident as it steps into the spotlight, ready to revamp applications stuck in MVC, Razor Pages, or Web Forms paradigms."
+      ],
+      "purposes": [
+        "Blazor's game-changing potential is evident as it steps into the spotlight, ready to revamp applications stuck in MVC, Razor Pages, or Web Forms paradigms.",
+        "Blazor's advancements are signaling a paradigm shift, allowing developers to consider it as a drop-in replacement for MVC and Razor Pages.",
+        "In the era of .NET 8, Blazor's transformational capabilities are generating interest as an alternative to MVC and Razor Pages.",
+        "Blazor's integration possibilities and upcoming .NET 8 compatibility are driving conversations about its role in replacing MVC and Razor Pages.",
+        "With the evolution of Blazor, transitioning from MVC and Razor Pages to a more modern approach is on the horizon with .NET 8.",
+        "Blazor's journey to modernize applications brings discussions about its potential to seamlessly replace MVC and Razor Pages in the era of .NET 8."
+      ],
+      "lecturers": ["James Lee", "Charles Choi"]
+    },
+    "price": 249.99,
+    "status": "active"
+  },
+  {
+    "title": "Use CI/CD to Automatically Update Postgres Images with Argo CD",
+    "category": "jobrelated",
+    "about": "Use ARGO CD Image Updater to Automatically Update Postgres Images with Argo CD. This is part 2 of CI/CD with Crunchy Postgres for Kubernetes and Argo series. This ensures that each month you can remediate any CVEs that might have popped up in your images since their initial release.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693056687/plannao-clone/mentor_1280_720_12_kkohp9.png",
+    "description": {
+      "structures": [
+        "Utilize ARGO CD Image Updater to seamlessly automate updates for Postgres images within your Kubernetes environment.",
+        "Seamlessly integrate ARGO CD Image Updater for automated Postgres image updates in part 2 of the Crunchy Postgres for Kubernetes and Argo CI/CD series.",
+        "Part 2 of the Crunchy Postgres for Kubernetes and Argo series focuses on utilizing ARGO CD Image Updater to ensure automated updates for Postgres images.",
+        "Maintain a robust CI/CD pipeline with ARGO CD Image Updater, automating the update process for Postgres images in Kubernetes, as explored in part 2 of the series.",
+        "Enhance security and maintain updated Postgres images using ARGO CD Image Updater within the context of the Crunchy Postgres and Argo CI/CD series.",
+        "Discover how ARGO CD Image Updater streamlines Postgres image updates in Kubernetes as an integral part of the Crunchy Postgres and Argo series.",
+        "Automate the monthly remediation of CVEs in Postgres images by leveraging ARGO CD Image Updater, a key component in your Kubernetes and Argo CD workflow.",
+        "Achieve a proactive approach to image security with ARGO CD Image Updater, demonstrated in part 2 of the Crunchy Postgres and Argo CI/CD progression.",
+        "Elevate your Kubernetes and Argo CD environment's security stance by incorporating ARGO CD Image Updater for consistent Postgres image updates.",
+        "Seamlessly integrate image remediation into your Kubernetes workflow using ARGO CD Image Updater, advancing the Crunchy Postgres and Argo CI/CD series."
+      ],
+      "purposes": [
+        "Part 2 of the series explores the integration of ARGO CD Image Updater to automate Postgres image updates, bolstering the Kubernetes and Argo CD pipeline.",
+        "Streamline the process of addressing CVEs in Postgres images through the automated capabilities of ARGO CD Image Updater, continuing from part 1 of the series.",
+        "Enhance the security posture of your Kubernetes-based Postgres instances with ARGO CD Image Updater, as highlighted in part 2 of the Crunchy Postgres and Argo journey.",
+        "Learn how to ensure up-to-date and secure Postgres images in Kubernetes with ARGO CD Image Updater, a vital aspect of the Crunchy Postgres and Argo CI/CD narrative.",
+        "Part 2 of the Crunchy Postgres and Argo series delves into ARGO CD Image Updater, showcasing its role in automatically updating and securing Postgres images.",
+        "Automate the handling of Postgres image updates, including CVE remediation, using ARGO CD Image Updater within your Kubernetes and Argo CD environment.",
+        "Elevate your CI/CD strategy with ARGO CD Image Updater, focusing on seamless Postgres image updates in conjunction with Kubernetes and Argo CD, as shown in part 2.",
+        "Discover how ARGO CD Image Updater integrates with Kubernetes and Argo CD, providing automated Postgres image updates in part 2 of the series.",
+        "Ensure the ongoing security and performance of your Kubernetes-managed Postgres images by employing ARGO CD Image Updater as explored in part 2 of the Argo series.",
+        "Part 2 of the series demonstrates the significance of ARGO CD Image Updater in automatically updating Postgres images, guaranteeing consistent CVE remediation within Kubernetes."
+      ],
+      "lecturers": ["Jack Lee", "Jack Kim", "Vasco Kim", "Zeo Park"]
+    },
+    "price": 300,
+    "status": "active"
+  },
+  {
+    "title": "Generate Models Using OpenAPI With Lombok Annotations",
+    "category": "jobrelated",
+    "about": "OpenAPI provides a property to auto-generate a model with Lombok annotations. The idea of OpenAPI is to write the API specification before actual coding begins. In the next section, we'll create an API specification for a model named Book and later generate the code using the OpenAPI code generator.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693056687/plannao-clone/mentor_1280_720_13_kq97cm.png",
+    "description": {
+      "structures": [
+        "OpenAPI leverages Lombok annotations for automatic model generation, advocating API specification writing prior to coding.",
+        "Simplify code creation with OpenAPI's Lombok-annotated auto-generated models and its pre-coding API specification approach.",
+        "OpenAPI's model auto-generation using Lombok annotations streamlines coding through upfront API specification writing.",
+        "Generate Lombok-annotated models seamlessly with OpenAPI, promoting a design-first API development strategy.",
+        "OpenAPI's model auto-generation via Lombok annotations enables design-centric coding through upfront API specification.",
+        "Employ OpenAPI's Lombok-powered model auto-generation and design-first API definition for efficient code creation."
+      ],
+      "purposes": [
+        "OpenAPI facilitates Lombok-based auto-modeling, emphasizing the importance of preliminary API specification in coding workflows.",
+        "Leverage OpenAPI's Lombok-driven model auto-generation to emphasize API specification primacy in the development lifecycle.",
+        "Streamline code generation using OpenAPI's Lombok-annotated models, underlining the significance of initial API specification design.",
+        "OpenAPI and Lombok integration automates model creation, advocating API specification authorship before commencing coding tasks.",
+        "Enhance coding efficiency with OpenAPI's Lombok-empowered auto-modeling, embracing API specification as a precursor to implementation.",
+        "OpenAPI's Lombok-supported model auto-generation underscores the value of designing a comprehensive API specification upfront.",
+        "Simplify model creation using OpenAPI's Lombok annotations, embracing the principle of coding post API specification.",
+        "OpenAPI, coupled with Lombok's model auto-generation, enforces the practice of formulating API blueprints before writing code.",
+        "Generate Lombok-annotated models effortlessly through OpenAPI, adhering to the philosophy of API-first development.",
+        "OpenAPI's integration with Lombok facilitates automatic model creation, prioritizing API specification in the development journey."
+      ],
+      "lecturers": ["Oliver Han", "Logan Lee", "Jerry", "Mad Dog", "Leon"]
+    },
+    "price": 370.8,
+    "status": "active"
+  },
+  {
+    "title": "How to Deploy a NGINX Server with Kubernetes.",
+    "category": "jobrelated",
+    "about": "This week, we will be working with Kubernetes to create 2 deployments with Nginx containers with a YAML file. The project could be used by a company that needs to host multiple websites or web applications using a single IP address and port. The curl command can be used to validate that both websites are accessible.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693056687/plannao-clone/mentor_1280_720_15_c2dyco.png",
+    "description": {
+      "structures": [
+        "This week's focus is on utilizing Kubernetes to craft dual Nginx container deployments via YAML, offering a solution for hosting numerous web entities via one IP and port.",
+        "Dive into Kubernetes as we engineer a tandem Nginx container setup using YAML, catering to businesses seeking consolidated web hosting on a singular IP and port.",
+        "Harness the power of Kubernetes in constructing paired Nginx container deployments through YAML, presenting an avenue for companies to unify web hosting under a solitary IP and port.",
+        "A Kubernetes-driven endeavor awaits, involving the creation of two Nginx container deployments through YAML, tailored for enterprises requiring unified web hosting on a lone IP and port.",
+        "Explore Kubernetes intricacies while architecting twin Nginx container deployments via YAML, providing an ideal solution for firms in need of centralized web hosting using just one IP and port."
+      ],
+      "purposes": [
+        "Delve into the world of Kubernetes by devising paired Nginx container deployments using YAML, addressing the demands of companies seeking streamlined web hosting on a solitary IP and port.",
+        "This week's mission involves Kubernetes mastery to forge dual Nginx container deployments through YAML, meeting the needs of enterprises aiming for unified web hosting on a singular IP and port.",
+        "Immerse yourself in Kubernetes as we create twin Nginx container deployments via YAML, catering to businesses that necessitate consolidated web hosting on a single IP and port.",
+        "Embark on a Kubernetes-driven project to establish paired Nginx container deployments using YAML, offering an optimal route for companies requiring centralized web hosting on a lone IP and port.",
+        "Step into Kubernetes proficiency while crafting dual Nginx container deployments with YAML, tailored for enterprises seeking to amalgamate web hosting under a singular IP and port.",
+        "Uncover the intricacies of Kubernetes by orchestrating tandem Nginx container deployments through YAML, serving the needs of companies seeking unified web hosting using just one IP and port.",
+        "Engage in a Kubernetes-centric endeavor, fabricating two Nginx container deployments using YAML, designed for businesses in pursuit of streamlined web hosting on a solitary IP and port.",
+        "This week's goal: Grasp Kubernetes fundamentals to construct paired Nginx container deployments via YAML, offering a solution for companies needing centralized web hosting under a single IP and port."
+      ],
+      "lecturers": [
+        "Jay Hong",
+        "Jake Kim",
+        "Vasco Kim",
+        "Jin Jin",
+        "Yui Kim",
+        "Mirae Yun"
+      ]
+    },
+    "price": 370.8,
+    "status": "active"
+  },
+  {
+    "title": "Effortless Data Fetching with React Suspense",
+    "category": "academic",
+    "about": "Learn how React Suspense transforms data fetching in modern app development, offering smoother interactions and responsive UIs. This tutorial covers setup, asynchronous data retrieval, error handling, fallbacks, and Concurrent Mode for enhanced performance. Make the most of React's evolution to create seamless user experiences effortlessly.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693058357/plannao-clone/mentor_1280_720_02_ii6hmy.png",
+    "description": {
+      "structures": [
+        "React Suspense: A new way to fetch data in React apps.",
+        "Improve the user experience of your React apps with Suspense.",
+        "Handle asynchronous data retrieval with React Suspense.",
+        "Render fallback content while your data is loading with React Suspense.",
+        "Avoid errors and improve performance with React Suspense.",
+        "Learn how to use React Suspense with Concurrent Mode.",
+        "Make the most of React's evolution with Suspense.",
+        "Create seamless user experiences with React Suspense.",
+        "Get started with React Suspense in minutes.",
+        "Learn the basics of React Suspense in this tutorial."
+      ],
+      "purposes": [
+        "Master React Suspense with this comprehensive guide.",
+        "Take your React skills to the next level with Suspense.",
+        "Build better React apps with React Suspense.",
+        "Improve the performance of your React apps with React Suspense.",
+        "Make your React apps more interactive with React Suspense.",
+        "Handle errors gracefully with React Suspense.",
+        "Optimize your React apps for concurrent rendering with React Suspense.",
+        "Learn how to use React Suspense with React Router.",
+        "Integrate React Suspense with your existing React apps.",
+        "Get the most out of React Suspense with this step-by-step guide."
+      ],
+      "lecturers": ["Oliver Han", "Logan Lee", "Jerry", "Mad Dog"]
+    },
+    "price": 170,
+    "status": "active"
+  },
+  {
+    "title": "What Is Google’s INP Score and How to Improve It in WordPress",
+    "category": "academic",
+    "about": "What Is Google's INP score and how to improve it in WordPress? Interaction to Next Paint (INP) is a Core Web Vitals metric from Google. Improving this score will make your website feel more responsive to your users.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693058358/plannao-clone/mentor_1280_720_04_tfer7v.png",
+    "description": {
+      "structures": [
+        "INP measures how long it takes for a website to respond to user input.",
+        "A good INP score is 0-200ms.",
+        "You can improve your INP score by optimizing your WordPress theme and plugins.",
+        "Use a caching plugin to speed up your website's loading time.",
+        "Minify and combine your CSS and JavaScript files.",
+        "Avoid using too many large images.",
+        "Use a CDN to serve your static files from a closer location to your users.",
+        "Enable lazy loading for images and iframes.",
+        "Use a performance testing tool to identify and fix performance bottlenecks.",
+        "Keep your WordPress installation up to date.",
+        "Use a content delivery network (CDN) to serve your static files from a closer location to your users.",
+        "Optimize your images for the web."
+      ],
+      "purposes": [
+        "Use a caching plugin to store static files in memory.",
+        "Minify and combine your CSS and JavaScript files.",
+        "Optimize your database queries.",
+        "Use a lightweight theme.",
+        "Remove unnecessary plugins.",
+        "Avoid using too many redirects.",
+        "Use a staging environment to test changes before deploying them to production.",
+        "Monitor your website's performance regularly and make improvements as needed."
+      ],
+      "lecturers": [
+        "Jay Hong",
+        "Jake Kim",
+        "Vasco Kim",
+        "Jin Jin",
+        "Yui Kim",
+        "Mirae Yun",
+        "Jace (Jae Yeol Kim)"
+      ]
+    },
+    "price": 450.5,
+    "status": "active"
+  },
+  {
+    "title": "AI in the Work of UI/UX Designer: Challenge or Opportunity?",
+    "category": "academic",
+    "about": "AI in the Work of UI/UX Designer: Challenge or Opportunity? Learn about Figma plugins enhancing automation, personalization, inclusivity, and innovation while navigating challenges around transparency, biases, and data privacy. Use Figma plugin to enhance automation and personalization.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693058360/plannao-clone/mentor_1280_720_03_mzgwhh.png",
+    "description": {
+      "structures": [
+        "AI can automate repetitive tasks, freeing up designers to focus on more creative work.",
+        "AI can help designers personalize experiences for individual users.",
+        "AI can help designers create more inclusive designs for people with disabilities.",
+        "AI can help designers innovate by generating new ideas and concepts.",
+        "AI can help designers make better decisions by analyzing data and providing insights.",
+        "AI can help designers test and iterate on designs more quickly."
+      ],
+      "purposes": [
+        "AI can help designers communicate their designs more effectively to stakeholders.",
+        "AI can help designers protect their designs from plagiarism and copyright infringement.",
+        "AI can help designers stay up-to-date on the latest design trends.",
+        "AI can help designers collaborate more effectively with other team members.",
+        "AI can help designers scale their businesses and reach a wider audience.",
+        "AI can help designers create more sustainable designs.",
+        "AI can help designers make more ethical decisions.",
+        "AI can help designers avoid biases in their designs.",
+        "AI can help designers protect user privacy.",
+        "AI can help designers stay compliant with regulations.",
+        "AI can help designers anticipate the future of design.",
+        "AI can help designers create better products and services.",
+        "AI can help designers improve the lives of users.",
+        "AI can help designers make the world a better place."
+      ],
+      "lecturers": [
+        "Daniel Park",
+        "Hyung Suk (Zoe Park)",
+        "Jay Hong",
+        "Jake Kim",
+        "Vasco Kim",
+        "Jin Jin",
+        "Yui Kim",
+        "Mirae Yun",
+        "Jace (Jae Yeol Kim)",
+        "Mira Kim",
+        "Oliver Han",
+        "Logan Lee",
+        "Jerry",
+        "Mad Dog",
+        "Leon"
+      ]
+    },
+    "price": 499.99,
+    "status": "active"
+  },
+  {
+    "title": "Why Fauna: Use cases unlocked with Fauna",
+    "category": "academic",
+    "about": "Fauna is uniquely positioned to support the next generation of dynamic applications. Fauna delivers on all of the key requirements for user-centric apps. The database supports first-class relationships between documents, and FQL makes it easy to query across entity types using a simple dot-chaining syntax.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693058364/plannao-clone/mentor_1280_720_05_o6ssjl.png",
+    "description": {
+      "structures": [
+        "Fauna is a serverless, cloud-native database that is scalable, reliable, and secure.",
+        "Fauna supports a wide range of data models, including documents, graphs, and key-value pairs.",
+        "Fauna's FQL query language is intuitive and easy to use.",
+        "Fauna provides strong consistency and ACID transactions.",
+        "Fauna is fully managed, so you don't have to worry about provisioning or managing servers.",
+        "Fauna is available in multiple regions, so your data is always close to your users.",
+        "Fauna is HIPAA compliant, so you can use it for sensitive data.",
+        "Fauna is open source, so you can inspect the code and be sure that it is secure.",
+        "Fauna has a large and active community of users and developers.",
+        "Fauna is a great choice for building the next generation of dynamic applications."
+      ],
+      "purposes": [
+        "Fauna supports first-class relationships between documents, so you can easily model complex data structures.",
+        "FQL makes it easy to query across entity types using a simple dot-chaining syntax.",
+        "Fauna is a good choice for applications that need to be highly scalable and reliable.",
+        "Fauna is a good choice for applications that need to support a variety of data models.",
+        "Fauna is a good choice for applications that need to be secure and compliant."
+      ],
+      "lecturers": [
+        "Jake Kim",
+        "Vasco Kim",
+        "Jin Jin",
+        "Mira Kim",
+        "Oliver Han",
+        "Logan Lee",
+        "Jerry",
+        "Mad Dog",
+        "Leon"
+      ]
+    },
+    "price": 450.5,
+    "status": "active"
+  },
+  {
+    "title": "From Code to Conversation: Bridging GitHub Actions and Slack with CDK",
+    "category": "professional",
+    "about": "We're diving into the powerful world of automation using the AWS Cloud Development Kit (CDK) to create a serverless-backed Slack App. From Code to Conversation: Bridging GitHub Actions and Slack with CDK The Slack Integration Every Dev Team Needs Aug 21, 2023.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693057617/plannao-clone/mentor_1280_720_08_vq8sfh.png",
+    "description": {
+      "structures": [
+        "Explore the realm of automation with AWS CDK, crafting a serverless Slack App, and connecting GitHub Actions to Slack seamlessly.",
+        "Bridging the gap between code and conversation through the innovative synergy of AWS CDK, GitHub Actions, and Slack integration.",
+        "Elevate your development workflow by leveraging AWS CDK to forge a serverless Slack App, uniting GitHub Actions and Slack communication.",
+        "Unveil the future of collaboration as AWS CDK empowers the creation of a serverless Slack App, harmonizing GitHub Actions with Slack interactions.",
+        "Join us on Aug 21, 2023, to witness the magic: AWS CDK orchestrates a serverless Slack App, weaving GitHub Actions into the fabric of Slack.",
+        "Uniting development forces: AWS CDK fuels a serverless Slack App, knitting GitHub Actions and Slack into a powerful channel of interaction."
+      ],
+      "purposes": [
+        "Sync your development efforts using AWS CDK to construct a serverless Slack App, melding GitHub Actions and Slack for streamlined communication.",
+        "From code to conversations, witness the fusion of AWS CDK, GitHub Actions, and Slack, redefining how development teams collaborate.",
+        "Master the art of automation with AWS CDK, sculpting a serverless Slack App that fuses GitHub Actions with Slack, setting a new norm.",
+        "Your essential toolkit: AWS CDK transforms development by crafting a serverless Slack App, merging GitHub Actions seamlessly with Slack.",
+        "Aug 21, 2023: Mark the date when AWS CDK revolutionizes collaboration—seamless Slack integration with GitHub Actions for empowered teams.",
+        "Empower your dev team with the ultimate integration: AWS CDK shapes a serverless Slack App, transforming GitHub Actions into Slack conversations.",
+        "Discover the synergy of AWS CDK, GitHub Actions, and Slack integration, empowering a serverless Slack App for unparalleled developer interaction.",
+        "Revolutionize communication: AWS CDK constructs a serverless Slack App, merging GitHub Actions and Slack into a unified platform on Aug 21, 2023.",
+        "Amplify your team's potential with AWS CDK, architecting a serverless Slack App that forges GitHub Actions and Slack into a cohesive unit.",
+        "Witness innovation unfold on Aug 21, 2023, as AWS CDK engineers a serverless Slack App, intertwining GitHub Actions with the pulse of Slack."
+      ],
+      "lecturers": [
+        "Mirae Yun",
+        "Jace (Jae Yeol Kim)",
+        "Mira Kim",
+        "Oliver Han",
+        "Logan Lee"
+      ]
+    },
+    "price": 499.99,
+    "status": "active"
+  },
+  {
+    "title": "Creating an AMA bot for my personal website using LLMs",
+    "category": "professional",
+    "about": "creating an AMA bot for my personal website using LLMs. Ayush Mangal created a QA bot over his personal information, which anyone can talk to, to know more about me. The data Any LLM trained on general web data doesn’t know anything about me; I am not that famous, yet.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693057617/plannao-clone/mentor_1280_720_09_rcacq3.png",
+    "description": {
+      "structures": [
+        "Crafting an interactive AMA bot on my website using LLMs to offer insights into my life: meet Ayush Mangal's innovative QA creation.",
+        "Ayush Mangal introduces a personal touch - an AMA bot revealing his details, powered by LLMs, bridging the gap between him and his audience.",
+        "Get up close and personal with Ayush Mangal through his website's AMA bot, utilizing LLMs to share exclusive information."
+      ],
+      "purposes": [
+        "Ayush Mangal's ingenious use of LLMs brings about a personalized QA bot, enabling engaging conversations about his life on his website.",
+        "Discover the person behind the name as Ayush Mangal leverages LLMs to build an AMA bot for his website, offering a unique interaction."
+      ],
+      "lecturers": ["Mirae Yun", "Jace (Jae Yeol Kim)", "Mira Kim"]
+    },
+    "price": 499.99,
+    "status": "active"
+  },
+  {
+    "title": "Docker and it’s comparison with VMs",
+    "category": "professional",
+    "about": "Docker is like a magic cooking box that lets you pack your recipe (software) along with all the ingredients (libraries, settings, and everything it needs) into a single package. It’s like having a recipe card and all the spices, veggies, and meat needed for a dish, neatly packed in a single box.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693057622/plannao-clone/mentor_1280_720_10_inoewe.png",
+    "description": {
+      "structures": [
+        "Docker functions as a digital culinary kit, bundling your software recipe with every necessary ingredient for seamless deployment.",
+        "Think of Docker as a virtual kitchenette, where your software recipe and all its components are consolidated for effortless cooking.",
+        "Imagine Docker as a high-tech bento box, housing your software recipe alongside its diverse components, ready to be savored.",
+        "Docker serves as a tech-savvy treasure chest, containing your software recipe and its integral parts for simplified deployment.",
+        "Likened to a chef's toolkit, Docker assembles your software recipe and its building blocks into a unified, ready-to-use package.",
+        "Docker mirrors a compact sous-chef, compiling your software's recipe and necessary ingredients for consistent, hassle-free cooking.",
+        "Picture Docker as a versatile lunch tray, where your software's recipe and accompanying items come together for easy consumption."
+      ],
+      "purposes": [
+        "Docker resembles a digital lunchbox, holding your software recipe and all its elements in a compact, transportable package.",
+        "Much like a cooking show's pantry in a box, Docker encapsulates your software's essentials, enabling consistent preparation anywhere."
+      ],
+      "lecturers": ["Hyung Suk (Zoe Park)"]
+    },
+    "price": 450,
+    "status": "active"
+  },
+  {
+    "title": "Getting Started with spartan/ui - Shadcn-like UI Components for Angular",
+    "category": "professional",
+    "about": "Getting Started with spartan/ui - Shadcn-like UI Components for Angular - DEV Community. Shadcn/ui comes with all the components you could ever need for a project, and all of them come in beautiful styles by default. We offer a versatile collection of un-styled UI building blocks that can be easily tailored.",
+    "thumbnail": "https://res.cloudinary.com/dho0rpn5a/image/upload/v1693057623/plannao-clone/mentor_1280_720_07_orzqh8.png",
+    "description": {
+      "structures": [
+        "A Shadcn-like UI components library for Angular.",
+        "A versatile collection of un-styled UI building blocks.",
+        "All components come in beautiful styles by default.",
+        "Easy to customize and extend.",
+        "Supports both Angular 11 and Angular 12.",
+        "Well-documented and easy to learn.",
+        "Supports both TypeScript and JavaScript.",
+        "Open source and free to use.",
+        "Actively maintained and updated.",
+        "A great choice for building modern Angular applications."
+      ],
+      "purposes": [
+        "Includes over 30 components, including buttons, inputs, menus, and more.",
+        "Supports theming and custom styles.",
+        "Works with any Angular CLI project.",
+        "Can be used with any Angular framework, including Angular Material and Angular Flex Layout.",
+        "Provides a consistent and modern UI experience.",
+        "Helps you build beautiful and responsive Angular applications.",
+        "Is a great choice for both beginners and experienced Angular developers.",
+        "Is constantly being improved and updated.",
+        "Is a reliable and stable library.",
+        "Is a great choice for any Angular project."
+      ],
+      "lecturers": [
+        "Vasco Kim",
+        "Jin Jin",
+        "Yui Kim",
+        "Mirae Yun",
+        "Jace (Jae Yeol Kim)",
+        "Mira Kim"
+      ]
+    },
+    "price": 199.99,
+    "status": "active"
+  }
+]
