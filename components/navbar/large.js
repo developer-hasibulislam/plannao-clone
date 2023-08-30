@@ -40,14 +40,15 @@ const Large = () => {
 
   return (
     <div className="flex items-center gap-x-4">
-      {user?.role === "admin" ? (
+      {user?.role === "admin" && (
         <Link
           href="/dashboard"
           className={`${className.link} ${isActive("/dashboard")}`}
         >
           Dashboard
         </Link>
-      ) : (
+      )}
+      {user.role === "user" && (
         <Link
           href="/auth/myprofile"
           className={`${className.link} ${isActive("/myprofile")}`}

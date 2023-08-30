@@ -49,14 +49,15 @@ const Small = () => {
           <div className="h-screen w-screen fixed bg-black/50 top-0 left-0 z-10"></div>
           <OutsideClick onOutsideClick={() => setIsOpen(false)}>
             <div className={className.container}>
-              {user?.role === "admin" ? (
+              {user?.role === "admin" && (
                 <Link
                   href="/dashboard"
                   className={`${className.link} ${isActive("/dashboard")}`}
                 >
                   Dashboard
                 </Link>
-              ) : (
+              )}
+              {user.role === "user" && (
                 <Link
                   href="/auth/myprofile"
                   className={`${className.link} ${isActive("/auth/myprofile")}`}

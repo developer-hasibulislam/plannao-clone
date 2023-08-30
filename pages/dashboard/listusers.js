@@ -14,12 +14,11 @@
  */
 
 import Badge from "@/components/dashboard/badge";
+import MakeAdmin from "@/components/dashboard/makeadmin";
 import UserDelete from "@/components/dashboard/userdelete";
 import Panel from "@/components/layouts/dashboard/panel";
 import Circle from "@/components/shared/circle";
-import Loading from "@/components/shared/loading";
 import Meta from "@/components/shared/meta";
-import { useGetUsersQuery } from "@/features/user/userApi";
 import Image from "next/image";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -113,9 +112,14 @@ const ListUsers = () => {
                         {new Date(updatedAt).toLocaleString()}
                       </td>
                       <td className="px-6 py-4">
-                        <span className="flex items-center gap-x-4">
-                          <UserDelete id={_id} />
-                        </span>
+                        {role === "admin" ? (
+                          "N/A"
+                        ) : (
+                          <span className="flex items-center gap-x-4">
+                            <MakeAdmin id={_id} />
+                            <UserDelete id={_id} />
+                          </span>
+                        )}
                       </td>
                     </tr>
                   )
