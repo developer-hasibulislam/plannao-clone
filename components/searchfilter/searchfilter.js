@@ -22,9 +22,14 @@ import { useRouter } from "next/router";
 const SearchFilter = () => {
   const router = useRouter();
   const { academic, professional, jobrelated } = useSelector(
-    (state) => state.mentor.mentors
+    (state) => state?.mentor?.mentors
   );
-  const mentors = [...academic, ...professional, ...jobrelated];
+  const mentors = [
+    ...(Array.isArray(academic) ? academic : []),
+    ...(Array.isArray(professional) ? professional : []),
+    ...(Array.isArray(jobrelated) ? jobrelated : []),
+  ];
+
   const [visible, setVisible] = useState(true);
 
   const handleChange = (e) => {
