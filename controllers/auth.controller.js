@@ -110,12 +110,9 @@ export async function signInUser(userInfo) {
         user.password
       );
 
-      if (!isMatch) {
-        return {
-          success: false,
-          message: "incorrect password",
-        };
-      } else {
+      console.log(userInfo.password, user.password);
+
+      if (isMatch) {
         if (user.status === "active") {
           const accessToken = generateAccessToken(user);
 
@@ -129,6 +126,11 @@ export async function signInUser(userInfo) {
             message: "account not active",
           };
         }
+      } else {
+        return {
+          success: false,
+          message: "incorrect password",
+        };
       }
     }
   } catch (error) {
@@ -153,9 +155,12 @@ export async function forgotUserPassword(req) {
     const token = await user.generateResetPasswordToken();
     const hashedUserPassword = await user.encryptPassword(req.body.password);
 
-    user.password = hashedUserPassword;
-    user.status = "inactive";
     await user.save({ validateBeforeSave: false });
+
+    await User.findOneAndUpdate(
+      { email: req.body.email },
+      { password: hashedUserPassword, status: "inactive" }
+    );
 
     const protocol = req.headers["x-forwarded-proto"] || "http";
     const host = req.headers.host;
