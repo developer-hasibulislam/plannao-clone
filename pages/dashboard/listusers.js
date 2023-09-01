@@ -42,6 +42,9 @@ const ListUsers = () => {
                     Name
                   </th>
                   <th scope="col" className="px-6 py-3">
+                    WhatsApp
+                  </th>
+                  <th scope="col" className="px-6 py-3">
                     Email
                   </th>
                   <th scope="col" className="px-6 py-3">
@@ -67,6 +70,7 @@ const ListUsers = () => {
                     _id,
                     avatar,
                     name,
+                    whatsapp,
                     email,
                     role,
                     status,
@@ -92,6 +96,9 @@ const ListUsers = () => {
                       <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         {name}
                       </th>
+                      <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                        {whatsapp}
+                      </td>
                       <td className="px-6 py-4">{email}</td>
                       <td className="px-6 py-4">
                         {role === "user" && (
