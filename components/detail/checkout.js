@@ -34,12 +34,21 @@ const Checkout = ({ setModalState }) => {
   const { _id, title, category, about, thumbnail, description, price, status } =
     mentor || {};
   const { structures, purposes, lecturers } = description || {};
-  const [createTransaction, { isLoading, isSuccess }] =
+  const [createTransaction, { data, isLoading, isSuccess }] =
     useCreateTransactionMutation();
 
   useEffect(() => {
     if (!isLoading && isSuccess) setModalState("purchase");
-  }, [isLoading, isSuccess, setModalState]);
+
+    if (data && data?.success) {
+      alert(data?.message);
+    }
+
+    // for displaying error
+    if (data && !data?.success) {
+      alert(data?.message || data?.error);
+    }
+  }, [isLoading, isSuccess, setModalState, data]);
 
   function handleTransaction(event) {
     event.preventDefault();
