@@ -110,8 +110,6 @@ export async function signInUser(userInfo) {
         user.password
       );
 
-      console.log(userInfo.password, user.password);
-
       if (isMatch) {
         if (user.status === "active") {
           const accessToken = generateAccessToken(user);
