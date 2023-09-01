@@ -35,10 +35,10 @@ const ListBuyers = () => {
               <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                 <tr>
                   <th scope="col" className="px-6 py-3">
-                    User
+                    Avatar
                   </th>
                   <th scope="col" className="px-6 py-3">
-                    Avatar
+                    User
                   </th>
                   <th scope="col" className="px-6 py-3">
                     Mentor
@@ -69,12 +69,6 @@ const ListBuyers = () => {
                           scope="row"
                           className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
                         >
-                          {user?.name}
-                        </td>
-                        <td
-                          scope="row"
-                          className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
-                        >
                           <Image
                             src={user?.avatar}
                             alt={user?.name}
@@ -82,6 +76,22 @@ const ListBuyers = () => {
                             width={30}
                             className="rounded"
                           />
+                        </td>
+                        <td
+                          scope="row"
+                          className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+                        >
+                          {user?.name}
+                        </td>
+                        <td
+                          scope="row"
+                          className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+                        >
+                          {user?.status === "trashed" ? (
+                            <Badge color="pink">{user?.status}</Badge>
+                          ) : (
+                            <Badge color="sky">{user?.status}</Badge>
+                          )}
                         </td>
                         <td
                           scope="row"
