@@ -20,6 +20,11 @@ export default function Document() {
         <meta name="revisit-after" content="7 days" />
         <meta name="author" content="Hasibul Islam" />
 
+        <meta
+          name="google-site-verification"
+          content="sZPmFgCCG9yDDjVqCsdembcfkOLDihLkjCWdXkxnEVI"
+        />
+
         {/* Open Graph / Facebook Meta Tags */}
         <meta
           property="og:title"
