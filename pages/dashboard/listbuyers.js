@@ -41,6 +41,9 @@ const ListBuyers = () => {
                     User
                   </th>
                   <th scope="col" className="px-6 py-3">
+                    Status
+                  </th>
+                  <th scope="col" className="px-6 py-3">
                     Mentor
                   </th>
                   <th scope="col" className="px-6 py-3">
