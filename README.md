@@ -63,8 +63,8 @@ With its modern design and intuitive layout, the Home Page welcomes users to an 
 ## Clone `repository`
 
 ```bash
-git clone https://github.com/devhasibulislam/plannao-clone.git
-cd plannao-clone
+git clone https://github.com/devhasibulislam/plannao-template.git
+cd plannao-template
 yarn
 ```
 
