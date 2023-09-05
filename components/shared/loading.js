@@ -19,7 +19,14 @@ import React from "react";
 const Loading = () => {
   return (
     <section className="flex justify-center items-center h-screen w-screen bg-primary/10">
-      <Image src="/assets/Spinner.png" alt="Loading" width={50} height={50} className="animate-spin" />
+      <Image
+        src="/assets/Spinner.png"
+        alt="Loading"
+        width={50}
+        height={50}
+        className="animate-spin"
+        priority
+      />
     </section>
   );
 };
