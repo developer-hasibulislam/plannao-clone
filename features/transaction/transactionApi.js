@@ -41,8 +41,23 @@ const transactionApi = apiSlice.injectEndpoints({
       },
       providesTags: ["Transaction"],
     }),
+
+    // check all transactions
+    checkAllTransactions: builder.query({
+      query: (token) => ({
+        url: `/transaction/check?token=${token}`,
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+        },
+      }),
+      providesTags: ["Transaction"],
+    }),
   }),
 });
 
-export const { useCreateTransactionMutation, useGetAllTransactionsQuery } =
-  transactionApi;
+export const {
+  useCreateTransactionMutation,
+  useGetAllTransactionsQuery,
+  useCheckAllTransactionsQuery,
+} = transactionApi;

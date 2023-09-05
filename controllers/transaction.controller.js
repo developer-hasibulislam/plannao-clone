@@ -86,3 +86,28 @@ export async function getAllTransactions(req) {
     };
   }
 }
+
+export async function checkAllTransactions(req) {
+  try {
+    const transaction = await Transaction.findOne({
+      "information.token": req.query.token,
+    });
+
+    if (!transaction) {
+      return {
+        success: true,
+        message: "All Right!",
+      };
+    } else {
+      return {
+        success: false,
+        message: "Try Again!",
+      };
+    }
+  } catch (error) {
+    return {
+      success: false,
+      error: error.message,
+    };
+  }
+}
