@@ -29,17 +29,19 @@ const AcademicSection = ({ mentors }) => {
 
         {/* <Slider mentors={mentors} /> */}
         <div className="py-8">
-          {mentors?.length ? (
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
-              {mentors?.slice(0, 4)?.map((mentor) => (
-                <Card key={mentor._id} mentor={mentor} />
-              ))}
-            </div>
-          ) : (
-            <div className="flex justify-center">
-              <Circle />
-            </div>
-          )}
+          <div className="py-8">
+            {mentors?.length ? (
+              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+                {mentors?.slice(0, 4)?.map((mentor) => (
+                  <Card key={mentor._id} mentor={mentor} />
+                ))}
+              </div>
+            ) : (
+              <div className="flex justify-center">
+                <Circle />
+              </div>
+            )}
+          </div>
         </div>
       </Container>
     </section>
