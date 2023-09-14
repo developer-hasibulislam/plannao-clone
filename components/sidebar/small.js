@@ -23,7 +23,9 @@ const Small = () => {
   const router = useRouter(); // Use the useRouter hook
 
   const isActive = (href) => {
-    return router.pathname === href ? "text-black" : "";
+    return router.pathname === href
+      ? "border-b-2 border-b-secondary w-fit whitespace-nowrap"
+      : "whitespace-nowrap w-full";
   };
 
   return (
