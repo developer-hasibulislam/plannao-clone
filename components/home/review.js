@@ -47,7 +47,7 @@ const Review = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-4 py-8">
           {reviews.map((review, index) => (
             <div key={index} class="w-full py-8 relative">
-              <div class="bg-white rounded-lg p-6 flex flex-col gap-y-4 border h-full">
+              <div class="bg-white rounded-lg p-6 flex flex-col gap-y-4 border border-primary h-full">
                 <p class="text-gray-700 text-sm">{review.opinion}</p>
                 <div class="flex items-center mt-auto">
                   {[...Array(review.ratings).keys()]?.map((rating) => (
@@ -62,7 +62,7 @@ const Review = () => {
                 </div>
               </div>
 
-              <div className="absolute bottom-0 right-4 bg-white  rounded-lg md:w-1/2 w-3/4 p-4 border">
+              <div className="absolute bottom-0 right-4 bg-white  rounded-lg md:w-1/2 w-3/4 p-4 border border-secondary">
                 <div class="flex items-center gap-x-4">
                   <Image
                     height={48}
