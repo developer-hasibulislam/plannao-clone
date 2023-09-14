@@ -46,7 +46,9 @@ const Card = ({ mentor }) => {
           {about}
         </p>
         <p className="flex flex-wrap justify-between items-center gap-y-4">
-          <Badge color="sky">৳ {price}</Badge>
+          <Badge color="sky" className="flex gap-x-1 items-center">
+            ৳ <span className="font-bold">{mentor?.price}</span>
+          </Badge>
           <button
             class="inline-flex justify-between items-center px-2 py-2 text-sm font-medium text-center text-white bg-primary rounded-full hover:text-black hover:bg-secondary focus:ring-4 focus:outline-none focus:ring-primary disabled:bg-primary/50"
             onClick={() =>
