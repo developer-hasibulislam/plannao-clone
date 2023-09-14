@@ -95,7 +95,7 @@ const Pricing = ({ mentor }) => {
 
   return (
     <div className="lg:col-span-5 col-span-12 lg:px-0 px-4 w-full">
-      <div className="rounded-lg h-fit lg:border lg:p-5 w-full flex flex-col gap-y-8">
+      <div className="rounded-lg h-fit lg:border border-secondary lg:p-5 w-full flex flex-col gap-y-8">
         <article className="flex flex-col gap-y-2">
           <h2 className="text-xl font-bold">Career Placement Initiative</h2>
           <p className="text-gray-700">
@@ -111,11 +111,12 @@ const Pricing = ({ mentor }) => {
               </div>
             ))}
           </div>
-          <div className="flex justify-between bg-[#32DB8E] text-[#4D876E] my-5 px-8 py-3 rounded-md font-bold">
+          <div className="flex justify-between items-center bg-[#32DB8E] text-[#4D876E] my-5 px-4 py-3 rounded-md font-medium">
             <p className="text-black">Price of Mentorship</p>
             <p className="text-black">
-              <span className="bg-green-100 text-green-800 text-base font-medium px-2.5 py-0.5 rounded-md border border-green-400 whitespace-nowrap">
-                ৳ {mentor?.price}
+              <span className="bg-green-100 text-green-800 text-base px-2.5 py-0.5 rounded-md border border-green-400 whitespace-nowrap flex gap-x-1 items-center">
+                <span className="text-xs font-medium">৳</span>{" "}
+                <span className="font-bold">{mentor?.price}</span>
               </span>
             </p>
           </div>
