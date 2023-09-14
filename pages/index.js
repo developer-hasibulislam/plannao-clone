@@ -20,6 +20,7 @@ import Banner from "@/components/home/banner";
 import Solution from "@/components/home/solution";
 import Review from "@/components/home/review";
 import Mentors from "@/components/home/mentors/mentors";
+import Necessary from "@/components/home/necessary";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <Banner />
         <Solution />
         <Mentors />
+        <Necessary />
         <Review />
         <Footer />
       </main>
