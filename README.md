@@ -1,3 +1,5 @@
+Full Video on YouTube [CodeCraftMERN](https://youtu.be/lNbrDw0J6jc?si=sYNs6wW3t7Rj5wL3)
+
 # PlanNao
 
 > Introducing Bangladesh's groundbreaking ed-tech advisory platform - 'All you need is mentor.' This innovative platform is revolutionizing the country's education landscape by connecting students with experienced mentors who provide personalized guidance and support. Whether you seek academic assistance, career advice, or skill development, 'All you need is mentor' offers a diverse network of qualified mentors to help you achieve your goals. With a user-friendly interface and a commitment to fostering a culture of learning, this platform aims to empower students and bridge the gap between traditional education and real-world success. Embrace the future of education with 'All you need is mentor' and unlock your full potential.
